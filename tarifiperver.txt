@@ -1,0 +1,24 @@
+<! doctype HTML>
+<html>
+
+	<head>
+	  <title> html Öğreniyorum </title>
+	  <style>
+		p {font-size:24px; color : green;}
+	  </style> 
+	</head>
+
+	<body>
+	 ASIL GÖRÜLECEKLER BURAYA YAZILIR.
+	 <h1 style = "color:red"> MERHABA DÜNYA! </h1>
+	 <p > WEB Programlama öğreniyorum . </p>
+	 <button onclick = "alert ('MERHABA')"> TIKLA </button>
+	 <button onclick = "kirmiziYap()"> ARKAPLANI KIRMIZI YAP </button>
+
+	 <script> 
+  	 function kirmiziYap() {
+		document.querySelector("body").style.backgroundColor="red";
+                               }
+	 </script>
+	</body>
+</html>
